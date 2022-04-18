@@ -1,0 +1,238 @@
+body {
+    background-color: #ffffff;
+    color:  #7a7a7a;
+   /* background-image: url('../images/fondo.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 10px;*/
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff159;
+    color:  #fff;
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 150px;    
+}
+
+.input:focus {
+    width: 200px;  
+    background-color: rgb(88, 74, 167);
+    color: #fff;
+    
+    transition-property: background-color, color, width;
+    transition-duration: 0.5s;  
+}
+
+.input:not(:focus) {
+    width: 150px;  
+    
+    transition-property: width;
+    transition-duration: 0.5s;  
+}
+
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(88, 74, 167);
+    border: 1px solid #000;
+    position: relative;
+}
+
+.child:hover {
+    background-color: rgb(34, 22, 98);
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.child2:hover {
+    background-color: rgb(88, 74, 167);
+    color: #fff;
+    border-radius: 50%;
+    
+    transition-property: background-color, color, border-radius;
+    transition-duration: 0.5s;
+}
+
+
+.child2:not(:hover) {
+    border-radius: 0%;
+    
+    transition-property:border-radius;
+    transition-duration: 0.5s;
+}
+
+.child3 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    position: relative;
+
+    background-image: url('../images/image.png');
+    background-size: cover;
+}
+
+.child3:hover {
+    background-image: url('../images/fondo.jpg');
+    
+    transition-property: background-image;
+    transition-duration: 0.5s;
+}
+
+
+.child3:not(:hover) {
+    background-image: url('../images/image.png');
+    
+    transition-property: background-image;
+    transition-duration: 0.5s;
+}
+
+.circulo {
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: #fff;
+    width: 20px;
+}
+
+tr:hover {
+    background-color: #7a7a7a;
+    color: #fff;
+    cursor: pointer;
+
+    transition-property: background-color, color;
+    transition-duration: 0.1s;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu li:hover .submenu{
+    animation: submenuA 1s 1;
+    display: block;
+}
+
+.submenu {
+    display: none;
+}
+
+@keyframes submenuA {
+    0% { display: none;}
+    100% { transform: translateY(-20px); display: block; }
+}
+
+@keyframes mianimacion {
+    0% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+      }
+    
+}
+
+.mianimacion:hover {
+    animation: mianimacion 1s infinite;
+}
+
+/*
+.fondoNegro {
+    background-color: black;
+    color: white;
+}
+
+li {
+    color: blueviolet;
+}
+
+div.fondoNegro {
+    border: 5px solid pink;
+}
+
+ul li:last-child {
+    background-color: hotpink;
+}
+
+#container {
+    background-color: white;
+    color: black;
+}
+
+.product {
+    background-color: orange;
+    color: black;
+}
+
+label {
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: firebrick;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    background-color: darkviolet;
+}
+
+input:focus {
+    background-color: #fff159;
+}
+
+input:disabled {
+    background-color: #7a7a7a;
+}
+
+#div1::before {
+    content: "Esto se escribe en el before";
+}
+
+#div1::after {
+    content: "\1F16F";
+}
+
+#txtText::after {
+    content: "\1F16F";
+}*/

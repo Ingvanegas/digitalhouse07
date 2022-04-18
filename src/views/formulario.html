@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="div1">
+
+    </div>
+
+    <a href="https://www.google.com">Ir a google</a>
+    
+    <form action="/prueba" method="POST">
+
+        <div>
+            <label for="txtText">Escriba un texto</label>
+            <input type="text" id="txtText" name="txtText" placeholder="Escriba un texto">
+        </div>
+
+        <div>
+            <label for="txtPassword">Escriba una contrasena</label>
+            <input type="password" id="txtPassword" name="txtPassword">
+        </div>
+
+        <div>
+            <label for="txtEmail">Escriba un email</label>
+            <input type="email" id="txtEmail" name="txtEmail">
+        </div>
+
+        <div>
+            <label for="txtTel">Escriba un telefono</label>
+            <input type="tel" id="txtTel" name="txtTel">
+        </div>
+
+        <div>
+            <label for="txtNumber">Escriba un numero</label>
+            <input type="number" id="txtNumber" name="txtNumber">
+        </div>
+
+
+        <div>
+            <label for="txtComentario">Escriba un numero</label>
+            <textarea name="txtComentario" id="txtComentario" cols="30" rows="3"></textarea>
+        </div>
+
+        <div>
+            <label for="cmbColors">Escoga un color</label>
+            <select name="cmbColors" id="cmbColors">
+                <option value="1">Buenos Aires</option>
+                <option value="2" selected>Cordoba</option>
+                <option value="3">La Plata</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="radioEfectivo">Efectivo</label>
+            <input type="radio" id="radioEfectivo" name="medio-pago" value="Efectivo">
+
+            <label for="radioDebito">Debito</label>
+            <input type="radio" checked id="radioDebito" name="medio-pago" value="Debito">
+
+            <label for="radioCredito">Credito</label>
+            <input type="radio" id="radioCredito" id="" name="medio-pago" value="Credito">
+
+            <label for="radioOtro">Otro</label>
+            <input type="radio" id="radioOtro" id="" name="medio-pago" value="otro">
+        </div>
+
+        <div>
+            <label for="chkEfectivo">Efectivo</label>
+            <input type="checkbox" checked id="chkEfectivo" name="medio-pago" value="Efectivo">
+
+            <label for="chkDebito">Debito</label>
+            <input type="checkbox" id="chkDebito" name="medio-pago" value="Debito">
+
+            <label for="chkCredito">Credito</label>
+            <input type="checkbox" id="chkCredito" id="" name="medio-pago" value="Credito">
+        </div>
+
+        <div>
+            <label for="txtDate">Fecha</label>
+            <input id="txtDate" type="date">
+        </div>
+
+        <div>
+            <label for="txtTime">Hora</label>
+            <input id="txtTime" type="time">
+        </div>
+
+        <div>
+            <label for="txtColor">Color</label>
+            <input id="txtColor" type="color">
+        </div>
+
+        <div>
+            <label for="txtFile">Escoge un archivo</label>
+            <input id="txtFile" type="file" accept=".pdf, .doc, .docx">
+        </div>
+
+       
+
+        <div>
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+</body>
+
+</html>

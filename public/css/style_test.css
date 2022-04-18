@@ -1,0 +1,62 @@
+.padre {
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 16px;
+    background-color: green;
+}
+
+.hijo {
+    border: 1px solid #000;
+    width: 150%;
+    font-size: 2em;
+}
+
+.container {
+    border: 1px solid rgb(217, 14, 14);
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,2989d8+0,207cca+6,7db9e8+59,7db9e8+59,2989d8+69 */
+    background: #1e5799;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 0%, #207cca 6%, #7db9e8 59%, #7db9e8 59%, #2989d8 69%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 0%, #207cca 6%, #7db9e8 59%, #7db9e8 59%, #2989d8 69%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1e5799 0%, #2989d8 0%, #207cca 6%, #7db9e8 59%, #7db9e8 59%, #2989d8 69%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e5799', endColorstr='#2989d8', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.container div {
+    border: 1px solid #000;
+    height: 200px;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+    vertical-align: middle;
+
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+@media (max-width: 460px) {
+    .padre {
+        font-size: 12px;
+        background-color: red;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .padre {
+        font-size: 12px;
+        background-color: yellow;
+    }
+}

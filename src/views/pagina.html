@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .mostrar-elemento {
+            display: block;
+        }
+
+        .ocultar-elemento {
+            
+        }
+
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        header
+    </header>
+    <h1 align="center">Hola a todes</h1>
+    <h2 style="color: red;">Hola a todes</h2>
+    <h3>Hola a todes</h3>
+    <h4>Hola a todes</h4>
+    <h5>Hola a todes</h5>
+    <h6>Hola a todes</h6>
+
+    <div id="container" class="product">
+        <div class="mostrar-elemento">
+            Un bloque que se muestra
+        </div>
+        <div class="fondoNegro">
+            otro bloque que no se muestra
+        </div>
+    </div>
+
+    <span>
+        Texto de span
+    </span>
+
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+        of Lorem Ipsum.
+    </p>
+
+    <ol>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+        <li>Cuarto elemento</li>
+    </ol>
+
+    <ul>
+        <li>Primer elemento</li>
+        <li>Segundo elemento</li>
+        <li>Tercer elemento</li>
+        <li>Cuarto elemento</li>
+    </ul>
+
+    <ul>
+        <li>Primer elemento:
+            <ol>
+                <li>Primer subelemento</li>
+                <li>Segundo subelemento</li>
+            </ol>
+        </li>
+        <li>Segundo elemento</li>
+    </ul>
+
+    <img height="200" width="200"
+        src="https://www.elespectador.com/resizer/FIfoOIF2gmAEZPksir3nqAX4gPU=/525x350/filters:format(jpeg)/cloudfront-us-east-1.images.arcpublishing.com/elespectador/XQ5OB4SRZ5B5LD7S7QIRCLHTVY.jpg">
+
+    <img height="200" width="200" src="images/image.png" alt="Imagen de Kimetsu no yaiba"
+        onerror="this.src='data:image/jpeg;base64,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'">
+
+    <div>
+        <a href="https://www.google.com" target="_blank">IR A GOOGLE</a>
+    </div>
+
+  
+
+
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+
+    <div class="product">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.
+    </div>
+
+    <footer>
+        footer
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: deepskyblue;
+    margin: 0 auto;
+}
+
+div {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+input:invalid:required {
+    border: 2px solid brown;
+}
+
+input:valid {
+    background-color:0px solid #fff;
+}
